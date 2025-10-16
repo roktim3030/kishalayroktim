@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/kishalayroktim/";
     },
-  },{id: "nav-research-experience",
+  },{id: "nav-projects",
+          title: "projects",
+          description: "A growing collection of your cool projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/kishalayroktim/projects/";
+          },
+        },{id: "nav-research-experience",
           title: "research_experience",
           description: "",
           section: "Navigation",
@@ -22,13 +29,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/kishalayroktim/publications/";
-          },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/kishalayroktim/projects/";
           },
         },{id: "nav-repositories",
           title: "repositories",
