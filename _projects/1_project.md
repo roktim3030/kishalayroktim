@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: Mechanical and Thermal Stress Analysis of Different Types of Memory Chips
 description: with background image
 img: assets/img/12.jpg
 importance: 1
@@ -14,20 +14,6 @@ From the beginning of the era of technology, residual stress and high compressiv
 
 The fabrication process for NAND, DRAM and VNAND are different and each process is subjected to different thermal loading conditions. This loading condition gives rise to stress which can remain present even after the fabrication is done. 
 
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/thesis_temp_vnand.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Temperature variation with different fabrication steps in VNAND fabrication
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         A tunnel oxide layer and a first polysilicon layer for floating gate, a buffer oxide and a nitride layer are subsequently deposited on a Silicon substrate at 700 and 720 C respectively. Portioned of the nitride layer, first polysilicon layer, tunnel oxide and silicon substrate are selectively etched at room temperature and trenches are formed on the silicon substrate.  An insulating oxide layer is formed in the trenches. Then the buffer oxide and a portion of insulating layer is striped. After that a second polysilicon layer is deposited at 700C. Then the top potion of the second polysilicon is etched and a dielectric layer is formed on it. Then finally the conduction metal is deposited at 350C.
@@ -42,10 +28,10 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        A tunnel oxide layer and a first polysilicon layer for floating gate, a buffer oxide and a nitride layer are subsequently deposited on a Silicon substrate at 700 and 720 C respectively. Portioned of the nitride layer, first polysilicon layer, tunnel oxide and silicon substrate are selectively etched at room temperature and trenches are formed on the silicon substrate.  An insulating oxide layer is formed in the trenches. Then the buffer oxide and a portion of insulating layer is striped. After that a second polysilicon layer is deposited at 700C. Then the top potion of the second polysilicon is etched and a dielectric layer is formed on it. Then finally the conduction metal is deposited at 350C.
+        The simulation of VNAND chip is done for validation of the workflow. We can get the value of Final Residual stress in the Polysilicon and Tungsten layer. Then we follow the process flow given in the Figure 3-2 and calculate the final residual stress in the VNAND chip. From the figure, we can see how the temperature varies with different fabrication steps. Maximum temperature during deposition occurs during the deposition of nitride at 800°. At the end of the fabrication steps, when the temperature returns to room temperature the final residual is found. 
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/thesis_processflow_NAND.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/thesis_processflow_VNAND.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -56,25 +42,31 @@ This variation of fabrication steps and temperatures give rises to stress inside
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/thesis_temp_vnand.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Temperature variation with different fabrication steps in VNAND fabrication
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/thesis_temp_DRAM.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/thesis_temp_nand.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/thesis_temp_vnand.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Temperature variation with different fabrication steps in a. DRAM fabrication b. NAND fabrication c. VNAND fabrication
+</div>
 
+<h2 class="mt-4 mb-3">Methodology</h2>
+<h3 class="mb-2">Step 1: VLSI Modeling</h3>
 
 {% raw %}
 
