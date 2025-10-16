@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: /blog/
-title: blog
+permalink: /researchexperience/
+title: research_experience
 nav: true
 nav_order: 1
 pagination:
