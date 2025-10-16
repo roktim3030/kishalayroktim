@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mechanical and Thermal Stress Analysis of Different Types of Memory Chips
-date: May 2023 - July 2024
+date: 5.10.2025
 description: Supervised by: Dr Mohammad Abdul Motalab
 tags: electronic_packaging
 categories: sample-posts
