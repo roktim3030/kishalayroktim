@@ -5,7 +5,7 @@ description: with background image
 img: assets/img/12.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
 From the beginning of the era of technology, residual stress and high compressive stress formation in the chip during fabrication has remain a great problem. In this analysis, the compressive stress formation during different stages of fabrication and the final residual stress has been calculated using finite element method. Then a comparative analysis has been made between them. Among the two memory chips, less stress is formed in DRAM compared to NAND memory chip. In the later part, thermal stress analysis of the DRAM and NAND memory chip is done. It has shown that the stress in DRAM changes more linearly than NAND due to the effect of high residual stress in NAND.
@@ -69,7 +69,6 @@ This variation of fabrication steps and temperatures give rises to stress inside
 <h3 class="mb-2">Step 1: VLSI Modeling</h3>
 
 {% raw %}
-
 ```html
 <div class="row justify-content-sm-center">
   <div class="col-sm-8 mt-3 mt-md-0">
@@ -80,7 +79,4 @@ This variation of fabrication steps and temperatures give rises to stress inside
   </div>
 </div>
 ```
-
-
-
 {% endraw %}
