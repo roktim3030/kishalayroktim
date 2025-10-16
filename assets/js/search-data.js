@@ -9,12 +9,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/kishalayroktim/";
     },
-  },{id: "nav-blog",
-          title: "blog",
+  },{id: "nav-research-experience",
+          title: "research_experience",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/kishalayroktim/blog/";
+            window.location.href = "/kishalayroktim/researchexperience/index.html";
           },
         },{id: "nav-publications",
           title: "publications",
