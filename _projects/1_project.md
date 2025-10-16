@@ -104,13 +104,13 @@ The FEM results were then compared between DRAM, NAND, and VNAND structures to e
 
 <h4 class="mt-4 mb-3">Material and Physical Parameters</h4>
 
-<table class="table table-bordered table-striped text-center align-middle">
+<table class=" table table-bordered table-striped text-center align-middle">
   <thead class="table-light">
     <tr>
-      <th>Material</th>
-      <th>Coefficient of Thermal Expansion (×10⁻⁶ /K)</th>
-      <th>Young’s Modulus, E (GPa)</th>
-      <th>Poisson’s Ratio (ν)</th>
+      <th class="mt-4 mb-3">Material</th>
+      <th class="mt-4 mb-3">Coefficient of Thermal Expansion (×10⁻⁶ /K)</th>
+      <th class="mt-4 mb-3">Young’s Modulus, E (GPa)</th>
+      <th class="mt-4 mb-3">Poisson’s Ratio (ν)</th>
     </tr>
   </thead>
   <tbody>
@@ -153,17 +153,3 @@ The FEM results were then compared between DRAM, NAND, and VNAND structures to e
   </tbody>
 </table>
 
-
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-{% endraw %}
