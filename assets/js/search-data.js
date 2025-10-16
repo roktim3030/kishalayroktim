@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/kishalayroktim/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/kishalayroktim/blog/2025/2015-03-15-formatting-and-links/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -422,17 +433,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/kishalayroktim/blog/2015/images/";
-          
-        },
-      },{id: "post-a-post-with-formatting-and-links",
-        
-          title: "a post with formatting and links",
-        
-        description: "march &amp; april, looking forward to summer",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/kishalayroktim/blog/2015/formatting-and-links/";
           
         },
       },{id: "books-the-godfather",
