@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/kishalayroktim/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-project-1",
+        
+          title: "project 1",
+        
+        description: "with background image",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/kishalayroktim/blog/2025/undergraduate-thesis/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
